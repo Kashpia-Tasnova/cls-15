@@ -1,0 +1,46 @@
+.box1{
+    height: 300px;
+    width: 300px;
+    border:3px dashed red ;
+    margin-left: 30px;
+    text-align: justify;
+}
+p{
+    background-color: lime;
+    padding:10px 50x 75px 20px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 25px;
+    padding-bottom: 30px;
+    border: 2px dotted black;
+    width: 210px;
+    background-color: burlywood;
+    unicode-bidi: bidi-override; /*text ultadike start hbe*/
+    direction: rtl;
+    
+}
+#first{
+    max-width: 100px;  /*zoom krle likar kono part baad prbe na*/
+}
+.box2{
+    color:crimson;
+    height: 300px;
+    width: 300px;
+    border: 5px solid red;
+    margin-top: 40px;   /*box er baire gap hbe*/
+    padding: 20px;      /*box er bitor e gap hbe*/
+    outline: 2px dotted green; /*margin er bitore border er baire kaj kre*/
+    outline-offset: 5px;
+    margin-left: 20px;
+    outline-style: dashed;
+    outline-color: blue;
+    outline-width: 5px;
+    text-align-last: center;
+}
+#top{
+    vertical-align: top;
+    
+}
+#sup{
+    vertical-align: super;
+}
